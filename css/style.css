@@ -1,0 +1,431 @@
+:root {
+    --main_fond: "Roboto", sans-serif;
+    --secondary_fond: 'Raleway', sans-serif;
+    --accent_color: #2196F3;
+    --title_text: #212121;
+    --text_basic: #757575;
+    --footer_color: rgba(255, 255, 255, 0.6);
+    --first_color: #FFFFFF;
+    --second_color: #000000;
+    --background_first: #2F303A;
+    --background_second: #F5F4FA;
+    --button_accent: #188CE8;
+}
+
+body {
+    font-family: var(--main_fond);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--title_text);
+}
+
+.list {
+    list-style: none;
+}
+
+.list_footer {
+    list-style: none;
+}
+
+.adress {
+    font-style: normal;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*=======header=====*/
+
+.header {
+    background: var(--first_color);
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    border: 1px solid #ECECEC;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--secondary_fond);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second_color);
+    margin-right: 90px;
+
+   /* border: 1px solid #000000;*/
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    display: flex;
+}
+
+.logo_white {
+    color: var(--second_color);
+}
+.logo_dark {
+    color: var(--first_color);
+}
+
+.web {
+color: var(--accent_color);
+}
+
+.nav_list .link.current {
+    color: var(--accent_color);
+}
+
+.nav_list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    color: var(--title_text);
+}
+
+.nav_link:hover,
+.nav_link:focus {
+    color: var(--accent_color);
+}
+
+.nav_link {
+    margin-right: 50px
+}
+
+/*===contacts====*/
+
+.contakt_mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    margin-right: 50px;
+
+    color: var(--text_basic);
+}
+
+.contakt_mail:hover,
+.contakt_mail:focus {
+    color: var(--accent_color);
+}
+
+.contakt_tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+
+    color: var(--text_basic);
+}
+
+.telephone {
+    margin-left: auto;
+}
+
+.contakt_tel:hover,
+.contakt_tel:focus {
+    color: var(--accent_color);
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+/*====Hero===*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+    background: var(--background_first)
+    
+}
+
+.hero_text {
+    max-width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: var(--first_color);
+
+}
+
+.button {
+    font-family: var(--main_fond);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    padding: 10px 32px;
+    display: block;
+    color: var(--first_color);
+
+    background: var(--accent_color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button:focus,
+.button:hover {
+    background: var(--button_accent)
+}
+
+/*========особенности======*/
+
+.specific {
+    margin-top: 94px;
+}
+
+.feature {
+    margin-right: 30px;
+}
+
+.skills {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title_text);
+}
+
+.skills_text {
+    flex-basis:auto;
+    max-width: 270px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+    margin: 0 auto;
+
+    color: var(--text_basic);
+}
+
+/*======чем_мы_занимаемся======*/
+
+.we_work {
+    padding-top: 90px;
+}
+
+.we_work_list {
+    padding-top: 50px;
+}
+
+.we_work_h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title_text); 
+}
+
+.box {
+    margin-right: 30px;
+}
+
+/*======наша_команда======*/
+
+.team_box {
+    padding-top: 94px;
+    margin-bottom: 94px;
+}
+
+.team_box_card {
+    padding-top: 50px;
+}
+
+.team {
+    padding-top: 94px;
+    background: var(--background_second);
+}
+
+.team_h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title_text); 
+}
+
+.team_card {
+    margin-right: 30px;
+    padding-bottom: 30px;
+    background: var(--background_white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name_team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 30px;
+    color: var(--title_text); 
+}
+
+.profeshinal {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+    color: var(--text_basic);
+}
+
+/*======footer=========*/
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background_first);
+}
+
+
+.adress {
+    padding-top: 20px;
+}
+
+.list_footer {
+    align-items: center;
+    margin-left: auto;
+}
+.contact_footer {
+    padding-top: 9px;
+}
+
+.adress_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--first_color);
+}
+.footer_color {
+    color: var(--footer_color);
+}
+
+/*=======portfolio======*/
+
+.zakladka_list {
+    justify-content: center;
+    margin: auto;
+    padding-top: 94px;
+}
+
+.nav_portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-right: 8px;
+
+
+    color: var(--title_text);
+}
+
+.button_portfolio {
+    font-family: var(--main_fond);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 22px;
+
+    color: var(--title_text);
+    
+    background: var(--background_second);
+    border-radius: 4px;
+}
+
+.nav_portfolio :focus,
+.nav_portfolio :hover {
+    background-color: var(--accent_color);
+    color: var(--first_color);
+}
+
+.projects_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.project_card {
+    padding-bottom: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex-basis: calc((100% / 3) - 30px);
+
+    background: var(--first_color);
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+
+}
+
+.project_title {
+    padding-left: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-top: 20px;
+
+    color: var(--title_text);
+}
+
+.project_text {
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text_basic);
+}
+
+.projects {
+    margin-bottom: 94px;
+    padding-top: 50px;
+}

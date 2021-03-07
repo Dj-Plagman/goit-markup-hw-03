@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--Шапка-->
+<header class="header">
+   <div class="container">
+    <nav class="nav">
+    <a class="logo link" href=""><span class="web">Web</span>Studio</a>
+        <ul class="nav_list list" >
+            <li>
+                <a class="nav_link link current" href="">Студия</a>
+            </li>
+            <li>
+                <a class="nav_link link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li>
+                <a class="nav_link link" href="#contacts_1">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Контакти-->
+        <ul class="list">
+            <li>
+                <a class="contakt_mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class=>    
+                <a class="contakt_tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
+    </div> 
+</header>
+    <main>
+        <!--HERO-->
+        <section class="hero">
+        <div class="container">
+            <h1 class="hero_text"> ЭФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button class="button" type="button">Заказать услугу</button>
+        </div>
+        </section>
+        <!--Особенности-->
+        <div class="container specific">
+            <!--<h2>Особенности</h2>-->
+            <ul class="list list_specif" >
+                <li class="feature">
+                    <p class="skills">Внимание к деталям</p>
+                    <p class="skills_text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li class="feature">
+                    <p class="skills">Пунктуальность</p>
+                    <p class="skills_text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li class="feature">
+                    <p class="skills">Планирование</p>
+                    <p class="skills_text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li class="feature">
+                    <p class="skills">Современные технологии<p>
+                    <p class="skills_text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
+            </ul>
+        </div>
+        <!--чем_мы_занимаемся-->
+        <div class="we_work container">
+            <h2 class="we_work_h2">Чем мы занимаемся</h2>
+            <ul class="list we_work_list" >
+                <li class="box">
+                    <img src="img/Work/img.jpg" alt="набирает текст" width="370" height="294">
+                </li>
+                <li class="box">
+                    <img src="img/Work/img-1.jpg" alt="держит телефон" width="370" height="294">
+                </li>
+                <li class="box">
+                    <img src="img/Work/img-2.jpg" alt="держит планшет" width="370" height="294">
+                </li>
+            </ul>
+        </div>
+        <!--Команда-->
+        <section class="team">
+            <div class="container team_box">
+            <h2 class="team_h2">Наша Команда</h2>
+            <ul class="list team_box_card" >
+                <li class="team_card">
+                    <img class="page_team" src="img/Team/Demyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                    <h3 class="name_team">Игорь Демьяненко</h3>
+                    <p class="profeshinal" lang="en">Product Designer</p>
+                </li>
+                <li class="team_card">
+                    <img class="page_team" src="img/Team/Repina.jpg" alt="Ольга Репина" width="270" height="260">
+                    <h3 class="name_team">Ольга Репина</h3>
+                    <p class="profeshinal" lang="en">Frontend Developer</p>
+                </li>
+                <li class="team_card">
+                    <img class="page_team" src="img/Team/Tarasov.jpg" alt="Николай Тарасов" width="270" height="260">
+                    <h3 class="name_team">Николай Тарасов</h3>
+                    <p class="profeshinal" lang="en">Marketing</p>
+                </li>
+                <li class="team_card">
+                    <img class="page_team" src="img/Team/Ermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
+                    <h3 class="name_team">Михаил Ермаков</h3>
+                    <p class="profeshinal" lang="en">UI Designer</p>
+                </li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    <!--------Подвал-------->
+    <footer class="footer">
+        <div class="container container_footer">
+        <a class="logo logo_dark link logo_footer" href=""><span class="web">Web</span>Studio</a>
+        <address class="adress">
+            <ul class="list_footer" id="contacts_1" >
+                <li class="contact_footer">
+                    <p class="adress_link">г. Киев, пр-т Леси Украинки, 26</p>
+                </li>
+                <li class="contact_footer">
+                    <a class="contakt_mail footer_color link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="contact_footer">
+                    <a class="contakt_tel footer_color link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </div>
+    </footer>
+</body>
+</html>
