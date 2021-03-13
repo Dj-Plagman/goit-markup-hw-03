@@ -247,7 +247,6 @@ color: var(--accent_color);
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 10px;
-    margin: 0 auto;
 
     color: var(--text_basic);
 }
